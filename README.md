@@ -42,18 +42,6 @@ terminal**. Incluye dos simuladores:
 └── Dockerfile
 ```
 
-## Informe (LaTeX)
-
-El informe se encuentra en `informe/informe.tex`. Se puede compilar en
-[Overleaf](https://overleaf.com) (subiendo el archivo) o localmente con una
-distribucion de LaTeX:
-
-```bash
-cd informe
-pdflatex informe.tex
-pdflatex informe.tex   # segunda pasada para el indice
-```
-
 ## Ejecucion local
 
 ```bash
