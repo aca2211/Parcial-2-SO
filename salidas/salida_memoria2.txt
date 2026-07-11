@@ -1,0 +1,17 @@
+Estrategia: Best Fit
+Memoria total: 2048
+Unidad de asignacion: 64
+
+Bloques ocupados:
+  A: [0-128) tam=128 frag_interna=28
+  E: [128-320) tam=192 frag_interna=62
+  D: [896-1216) tam=320 frag_interna=20
+  F: [1216-1920) tam=704 frag_interna=4
+  G: [1920-2048) tam=128 frag_interna=38
+Bloques libres:
+  hueco: [320-896) tam=576
+
+Memoria ocupada: 1472
+Memoria libre: 576
+Fragmentacion externa: 0
+Fragmentacion interna: 152

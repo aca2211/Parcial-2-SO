@@ -1,0 +1,19 @@
+# Ejemplo 1: paginacion de un nivel
+# Memoria virtual 64 KiB, fisica 16 KiB, paginas de 4 KiB.
+MEMORIA_VIRTUAL 65536
+MEMORIA_FISICA 16384
+TAM_PAGINA 4096
+
+# Tabla de paginas: pagina -> marco
+TABLA 0 2
+TABLA 1 0
+TABLA 2 3
+TABLA 5 1
+
+# Direcciones virtuales a traducir
+TRADUCIR 0
+TRADUCIR 4096
+TRADUCIR 5000
+TRADUCIR 8192
+TRADUCIR 20480
+TRADUCIR 12288

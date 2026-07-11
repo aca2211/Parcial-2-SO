@@ -1,0 +1,12 @@
+Memoria virtual: 4096 (16 paginas)
+Memoria fisica: 2048 (8 marcos)
+Tamano de pagina: 256
+
+Traducciones:
+  VA 10 -> pagina 0, offset 10 -> marco 4 -> PA 1034
+  VA 256 -> pagina 1, offset 0 -> marco 2 -> PA 512
+  VA 300 -> pagina 1, offset 44 -> marco 2 -> PA 556
+  VA 800 -> pagina 3, offset 32 -> marco 7 -> PA 1824
+  VA 1024 -> pagina 4, offset 0 -> marco 0 -> PA 0
+  VA 2048 -> pagina 8, offset 0 -> marco 5 -> PA 1280
+  VA 5000 -> ERROR: Direccion virtual fuera del espacio de direcciones.

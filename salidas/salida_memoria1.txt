@@ -1,0 +1,17 @@
+Estrategia: First Fit
+Memoria total: 1000
+Unidad de asignacion: 1
+
+Bloques ocupados:
+  P1: [0-200) tam=200 frag_interna=0
+  P5: [200-320) tam=120 frag_interna=0
+  P6: [320-570) tam=250 frag_interna=0
+  P4: [650-750) tam=100 frag_interna=0
+Bloques libres:
+  hueco: [570-650) tam=80
+  hueco: [750-1000) tam=250
+
+Memoria ocupada: 670
+Memoria libre: 330
+Fragmentacion externa: 80
+Fragmentacion interna: 0

@@ -1,0 +1,15 @@
+# Ejemplo 2: Best Fit con unidad de asignacion = 64
+# Al reservar en multiplos de 64 aparece fragmentacion interna.
+MEMORIA 2048
+UNIDAD 64
+ESTRATEGIA BEST_FIT
+
+CREAR A 100
+CREAR B 500
+CREAR C 200
+CREAR D 300
+LIBERAR B
+CREAR E 130
+CREAR F 700
+LIBERAR C
+CREAR G 90

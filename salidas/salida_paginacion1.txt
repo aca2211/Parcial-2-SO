@@ -1,0 +1,11 @@
+Memoria virtual: 65536 (16 paginas)
+Memoria fisica: 16384 (4 marcos)
+Tamano de pagina: 4096
+
+Traducciones:
+  VA 0 -> pagina 0, offset 0 -> marco 2 -> PA 8192
+  VA 4096 -> pagina 1, offset 0 -> marco 0 -> PA 0
+  VA 5000 -> pagina 1, offset 904 -> marco 0 -> PA 904
+  VA 8192 -> pagina 2, offset 0 -> marco 3 -> PA 12288
+  VA 20480 -> pagina 5, offset 0 -> marco 1 -> PA 4096
+  VA 12288 -> ERROR: Fallo de pagina: la pagina 3 no esta mapeada a ningun marco.

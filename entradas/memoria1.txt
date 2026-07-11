@@ -1,0 +1,15 @@
+# Ejemplo 1: First Fit sin unidad de asignacion (sin fragmentacion interna)
+# Memoria total de 1000 unidades.
+MEMORIA 1000
+UNIDAD 1
+ESTRATEGIA FIRST_FIT
+
+# Operaciones (creacion y liberacion de procesos)
+CREAR P1 200
+CREAR P2 150
+CREAR P3 300
+CREAR P4 100
+LIBERAR P2
+CREAR P5 120
+LIBERAR P3
+CREAR P6 250
